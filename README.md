@@ -51,34 +51,6 @@ The app uses simple hash-based client-side routing (`#/path`).
 
 ---
 
-## 📁 Project Structure
-
-```
-are-you-alive/
-├── index.html
-├── package.json
-├── vite.config.js
-├── README.md
-└── src/
-    ├── main.jsx                 # React entry point
-    ├── App.jsx                  # Root component & route table
-    ├── context/
-    │   └── AuthContext.jsx      # Auth state (token, login, logout)
-    ├── components/
-    │   └── Toast.jsx            # Toast notification component/hook
-    ├── utils/
-    │   ├── useRoute.js          # Lightweight hash router hook
-    │   └── api.js                # API base URL & fetch helpers
-    └── pages/
-        ├── AboutPage.jsx         # "/" and "/about" — landing page
-        ├── AuthPage.jsx          # "/auth" — login & register
-        ├── HomePage.jsx          # "/home" — pulse-check live demo
-        ├── ProfilePage.jsx       # "/profile" — view profile
-        └── EditProfilePage.jsx   # "/edit-profile" — edit profile form
-```
-
----
-
 ## 🔌 API Endpoints (Backend)
 
 The frontend expects a backend running at `http://localhost:5000/api` with the following endpoints:
