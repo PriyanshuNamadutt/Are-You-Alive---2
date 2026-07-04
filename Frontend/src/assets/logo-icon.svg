@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14523F"/>
+      <stop offset="100%" stop-color="#0E3B2E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <circle cx="100" cy="100" r="94" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="94" fill="none" stroke="#22A06B" stroke-width="2" opacity="0.5"/>
+
+  <!-- signal ping arcs, radiating from the tip of the checkmark -->
+  <path d="M 148 46 A 34 34 0 0 1 176 74" fill="none" stroke="#8FEFC0" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 156 30 A 54 54 0 0 1 190 66" fill="none" stroke="#8FEFC0" stroke-width="5" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- heartbeat line resolving into a checkmark -->
+  <path d="M 32 108 L 54 108 L 65 130 L 82 58 L 98 132 L 112 108 L 132 108 L 148 132 L 172 66"
+        fill="none" stroke="#F7F5EE" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

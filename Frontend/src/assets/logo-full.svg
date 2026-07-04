@@ -1,0 +1,23 @@
+<svg viewBox="0 0 560 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgFull" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14523F"/>
+      <stop offset="100%" stop-color="#0E3B2E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- mark -->
+  <circle cx="70" cy="70" r="64" fill="url(#bgFull)"/>
+  <circle cx="70" cy="70" r="64" fill="none" stroke="#22A06B" stroke-width="1.5" opacity="0.5"/>
+
+  <path d="M 106 34 A 23 23 0 0 1 125 53" fill="none" stroke="#8FEFC0" stroke-width="3.5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 112 23 A 37 37 0 0 1 136 45" fill="none" stroke="#8FEFC0" stroke-width="3.5" stroke-linecap="round" opacity="0.3"/>
+
+  <path d="M 26 76 L 41 76 L 49 90 L 61 41 L 72 91 L 82 76 L 96 76 L 107 91 L 123 47"
+        fill="none" stroke="#F7F5EE" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- wordmark -->
+  <text x="152" y="65" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="#0E3B2E">Are You</text>
+  <text x="152" y="102" font-family="Poppins, 'Segoe UI', sans-serif" font-weight="700" font-size="34" fill="#22A06B">Alive</text>
+  <text x="152" y="122" font-family="'Segoe UI', sans-serif" font-weight="500" font-size="13" letter-spacing="1.5" fill="#5C7A6E">CHECK IN. STAY CONNECTED.</text>
+</svg>
